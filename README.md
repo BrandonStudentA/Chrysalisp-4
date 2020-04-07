@@ -28,7 +28,7 @@ A clear defintion of MVP and Post-MVP goals
 
 ERD (Entity Relationship Diagram):
 
-![ERD & WIRE_FRAME](https://cacoo.com/diagrams/pMYrP2NRippmlnXH-9EDA1-w400-h300.png)
+![ERD & WIRE_FRAME](https://cacoo.com/diagrams/pMYrP2NRippmlnXH-9EDA1.png)
 
 
 Technologies used:
