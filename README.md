@@ -4,7 +4,7 @@
 
 
 ERD (Entity Relationship Diagram):
-![ERD & WIRE_FRAME](app/wireframe/Diagram.png)
+![ERD & WIRE_FRAME](app/wireframe/Diagram1.png)
 
 
 Technologies used:
