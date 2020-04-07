@@ -21,29 +21,55 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...Description of the project you'll be building with the objective described in non-technical language
 
 A clear defintion of MVP and Post-MVP goals
 
-Wireframes
 
-must be hifi (use Adobe XD or another professional mock-up service)
-demonstrate the user experience - how will the user interact with the UI of your app?
-Component heirarchy
 
-break wireframe components down and describe in a component heirarchy
-ERD (Entity Relationship Diagram)
+ERD (Entity Relationship Diagram):
 
-this cannot be drawn by hand
-use a professional tool, such as:
-lucidchart
-draw.io
-ERDPlus
-Link to API Endpoint documentation (and any other 3rd party libraries you plan on incorporating)
+<iframe src="https://cacoo.com/diagrams/pMYrP2NRippmlnXH/view?si=9EDA1&w=400&h=300" width="402" height="330" frameborder="0" scrolling="no"></iframe>
 
-Technologies used
+Technologies used:
 
 List of server-side routes
+Controller#Action
+body_works GET    /body_works(.:format)                                                                    body_works#index
+            POST   /body_works(.:format)                                                                    body_works#create
+body_work GET    /body_works/:id(.:format)                                                                body_works#show
+            PATCH  /body_works/:id(.:format)                                                                body_works#update
+            PUT    /body_works/:id(.:format)                                                                body_works#update
+            DELETE /body_works/:id(.:format)                                                                body_works#destroy
+nutritions GET    /nutritions(.:format)                                                                    nutritions#index
+            POST   /nutritions(.:format)                                                                    nutritions#create
+nutrition GET    /nutritions/:id(.:format)                                                                nutritions#show
+            PATCH  /nutritions/:id(.:format)                                                                nutritions#update
+            PUT    /nutritions/:id(.:format)                                                                nutritions#update
+            DELETE /nutritions/:id(.:format)                                                                nutritions#destroy
+exercises GET    /exercises(.:format)                                                                     exercises#index
+            POST   /exercises(.:format)                                                                     exercises#create
+    exercise GET    /exercises/:id(.:format)                                                                 exercises#show
+            PATCH  /exercises/:id(.:format)                                                                 exercises#update
+            PUT    /exercises/:id(.:format)                                                                 exercises#update
+            DELETE /exercises/:id(.:format)                                                                 exercises#destroy
+    moods GET    /moods(.:format)                                                                         moods#index
+            POST   /moods(.:format)                                                                         moods#create
+        mood GET    /moods/:id(.:format)                                                                     moods#show
+            PATCH  /moods/:id(.:format)                                                                     moods#update
+            PUT    /moods/:id(.:format)                                                                     moods#update
+            DELETE /moods/:id(.:format)                                                                     moods#destroy
+        mgrs GET    /mgrs(.:format)                                                                          mgrs#index
+            POST   /mgrs(.:format)                                                                          mgrs#create
+        mgr GET    /mgrs/:id(.:format)                                                                      mgrs#show
+            PATCH  /mgrs/:id(.:format)                                                                      mgrs#update
+            PUT    /mgrs/:id(.:format)                                                                      mgrs#update
+            DELETE /mgrs/:id(.:format)                                                                      mgrs#destroy
+    users GET    /users(.:format)                                                                         users#index
+            POST   /users(.:format)                                                                         users#create
+        user GET    /users/:id(.:format)                                                                     users#show
+            PATCH  /users/:id(.:format)                                                                     users#update
+            PUT    /users/:id(.:format)                                                                     users#update
+            DELETE /users/:id(.:format)                                                                     users#destroy
 
 An explanation of the major challenges you expect to face while building this app
 

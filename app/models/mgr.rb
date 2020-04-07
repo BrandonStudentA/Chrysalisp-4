@@ -1,0 +1,2 @@
+class Mgr < ApplicationRecord
+end

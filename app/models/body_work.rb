@@ -1,0 +1,2 @@
+class BodyWork < ApplicationRecord
+end
