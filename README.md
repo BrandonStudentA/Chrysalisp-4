@@ -1,33 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-
-A clear defintion of MVP and Post-MVP goals
 
 
 
 ERD (Entity Relationship Diagram):
-d
 ![ERD & WIRE_FRAME](https://cacoo.com/diagrams/pMYrP2NRippmlnXH-9EDA1.png)
 
 
@@ -46,7 +22,9 @@ Total	H	6hrs	5hrs
 
 
 
-Chrysalis App : The Chrysalis Apps provides a interactive user experince focus on provding the user with simple user friendly holistic solutions for unpleasent moods/emotions. For example Chrysalis will lauch with a list of moods: Anxeity, Anger, Sadness, restless.... 
+Chrysalis App : 
+The Chrysalis Apps provides a interactive user experince focus on provding the user with simple user friendly holistic solutions for unpleasent moods/emotions. For example Chrysalis will lauch with a list of moods: Anxeity, Anger, Sadness, restless.... 
+
 
 Each mood will listed upon the user registration and sign in.  The moods will have routes to remodies that have been known in the holistic community to provide some diy remodies
 
@@ -54,6 +32,7 @@ Intially each mood will have a few catagories: Excersices, Nutrtion, and Body-Wo
 
 
 As metioned the user will need to be able to register and create an account. the user will have complete a simple form with a username, email and password. 
+
 
 User will have full access to Create, Read, Update, Delete the user own account detail.
 
